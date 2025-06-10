@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zlato kolo sreče - Full House Kazino</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="top-menu">
+        <div class="logo">
+            <a href="#">Logo</a>
+        </div>
+        <ul class="menu-items">
+            <li><a href="main.html">Domov</a></li>
+            <li><a href="o_nas.html">O nas</a></li>
+            <li class="dropdown">
+                <a href="#">Igre</a>
+                <ul class="dropdown-content">
+                    <li><a href="ruleta.html">Ruleta</a></li>
+                    <li><a href="poker.html">Poker</a></li>
+                    <li><a href="blackjack.html">Blackjack</a></li>
+                    <li><a href="igralni_avtomati.html">Igralni avtomati</a></li>
+                    <li><a href="bakarat.html">Bakarat</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Kontakt</a>
+                <ul class="dropdown-content">
+                    <li><a href="kontakt.html">Kontaktirajte nas</a></li>
+                    <li><a href="postanite_clan.html">Postanite član</a></li>
+                    <li><a href="kje_nas_najdete.html">Kje nas lahko najdete</a></li>
+                </ul>    
+            </li>
+            <li><a href="kolo_srece.html">Zlato kolo sreče</a></li>
+        </ul>
+    </nav>
+    
+    <div class="main-container">
+        <main>
+            <section class="hero">
+                <h1>ZLATO KOLO SREČE</h1>
+                <p>Vrtite kolo in osvojite neverjetne nagrade!</p>
+            </section>
+            
+            <section class="wheel-section">
+                <h2 class="section-title">Vrtite kolo za svojo priložnost</h2>
+                
+                <div class="wheel-container">
+                    <div class="wheel">
+                        <div class="wheel-spinner" id="wheelSpinner"></div>
+                        <div class="wheel-center"></div>
+                    </div>
+                    <button class="spin-btn" id="spinBtn">VRTI KOLO</button>
+                </div>
+                
+                <div class="prizes-info">
+                    <h3>Nagradni sklad</h3>
+                    <ul class="prizes-list">
+                        <li><span class="prize-color" style="background: #ff0000;"></span> Glavna nagrada: 10.000 €</li>
+                        <li><span class="prize-color" style="background: #ff9900;"></span> Potovanje za dve osebi</li>
+                        <li><span class="prize-color" style="background: #ffff00;"></span> 1.000 € v žetonih</li>
+                        <li><span class="prize-color" style="background: #33cc33;"></span> Brezplačna večerja za dva</li>
+                        <li><span class="prize-color" style="background: #0099ff;"></span> VIP članstvo za 1 leto</li>
+                        <li><span class="prize-color" style="background: #6633cc;"></span> 500 € v žetonih</li>
+                        <li><span class="prize-color" style="background: #ff0066;"></span> Brezplačen nočni nastanek</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="gallery-section">
+                <h2 class="section-title">Pretekli zmagovalci</h2>
+                
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="slike/winner1.jpg" alt="Zmagovalec 1">
+                        <div class="gallery-caption">
+                            <h3>Marko Novak</h3>
+                            <p>Glavna nagrada 2023</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="slike/winner2.jpg" alt="Zmagovalec 2">
+                        <div class="gallery-caption">
+                            <h3>Ana Kovač</h3>
+                            <p>Potovanje na Bahame</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="slike/winner3.jpg" alt="Zmagovalec 3">
+                        <div class="gallery-caption">
+                            <h3>Bojan Petek</h3>
+                            <p>VIP članstvo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="slike/winner4.jpg" alt="Zmagovalec 4">
+                        <div class="gallery-caption">
+                            <h3>Maja Horvat</h3>
+                            <p>1.000 € v žetonih</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="slike/winner5.jpg" alt="Zmagovalec 5">
+                        <div class="gallery-caption">
+                            <h3>Peter Kralj</h3>
+                            <p>Brezplačna večerja</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="slike/winner6.jpg" alt="Zmagovalec 6">
+                        <div class="gallery-caption">
+                            <h3>Eva Zupan</h3>
+                            <p>Nastanek v hotelu</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="video-section">
+                <h2 class="section-title">Kako deluje Zlato kolo sreče</h2>
+                
+                <div class="iframe-container">
+                    <!-- Replace with your actual video embed code -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Tg4OiobxUxA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            
+            <section class="rules-section">
+                <h2 class="section-title">Pravila iger</h2>
+                
+                <div class="rules-content">
+                    <ol class="rules-list">
+                        <li>Kolo lahko vrtijo samo člani kazina.</li>
+                        <li>Vsak član ima pravico do enega vrtenja na dan.</li>
+                        <li>Nagrade se ne morejo zamenjati za denar.</li>
+                        <li>Za prevzem nagrad je potrebna predhodna rezervacija.</li>
+                        <li>Vsaka nagrada velja 6 mesecev od dneva osvojitve.</li>
+                        <li>Organizator si pridržuje pravico do spremembe pravil.</li>
+                    </ol>
+                    
+                    <div class="cta-box">
+                        <h3>Želite sodelovati?</h3>
+                        <p>Pridružite se nam še danes in osvojite neverjetne nagrade!</p>
+                        <a href="postanite_član.html" class="cta-button">Postanite član</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-media">
+                <h3>Povežite se z nami</h3>
+                <div class="social-icons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2023 Full House Kazino. Vse pravice pridržane.</p>
+                <p>Full House® je registrirana blagovna znamka družbe Full House Entertainment d.o.o.</p>
+                <p><a href="#">Pravilnik o zasebnosti</a> | <a href="#">Pogoji uporabe</a> | <a href="#">Pravna obvestila</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Wheel of Fortune functionality
+        const wheel = document.getElementById('wheelSpinner');
+        const spinBtn = document.getElementById('spinBtn');
+        let isSpinning = false;
+        
+        spinBtn.addEventListener('click', () => {
+            if (isSpinning) return;
+            
+            isSpinning = true;
+            spinBtn.disabled = true;
+            
+            // Random rotation between 2 and 5 full rotations plus segment
+            const segments = 8;
+            const segmentAngle = 360 / segments;
+            const extraRotation = 360 * (2 + Math.floor(Math.random() * 3));
+            const winningSegment = Math.floor(Math.random() * segments);
+            const finalAngle = extraRotation + (winningSegment * segmentAngle);
+            
+            wheel.style.transform = `rotate(${-finalAngle}deg)`;
+            
+            setTimeout(() => {
+                isSpinning = false;
+                spinBtn.disabled = false;
+                
+                // Determine prize based on final angle
+                const prizes = [
+                    "Glavna nagrada: 10.000 €",
+                    "Potovanje za dve osebi",
+                    "1.000 € v žetonih",
+                    "Brezplačna večerja za dva",
+                    "VIP članstvo za 1 leto",
+                    "500 € v žetonih",
+                    "Brezplačen nočni nastanek",
+                    "Poskusite znova"
+                ];
+                
+                alert(`Čestitamo! Osvojili ste: ${prizes[winningSegment]}`);
+            }, 4000);
+        });
+    </script>
+</body>
+</html>
